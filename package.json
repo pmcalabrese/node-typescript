@@ -1,6 +1,10 @@
 {
-  "name": "node-typescrip",
-  "description": "node-express-typescript boilerplate",
+  "name": "node-typescript",
+  "description": "A minimal node.js Typescript boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pmcalabrese/node-typescript.git"
+  },
   "version": "0.0.0",
   "private": true,
   "scripts": {
