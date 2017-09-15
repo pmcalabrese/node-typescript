@@ -1,0 +1,16 @@
+{
+  "name": "node-typescrip",
+  "description": "node-express-typescript boilerplate",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "node ./node_modules/typescript/bin/tsc -p ./src",
+    "watch": "node ./node_modules/typescript/bin/tsc -p ./src -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "typescript": "^2.2.1"
+  }
+}
