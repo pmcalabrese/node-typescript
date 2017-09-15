@@ -9,8 +9,8 @@
   "private": true,
   "scripts": {
     "start": "node dist/index.js",
-    "build": "node ./node_modules/typescript/bin/tsc -p ./src",
-    "watch": "node ./node_modules/typescript/bin/tsc -p ./src -w"
+    "watch": "node ./node_modules/typescript/bin/tsc -p ./src -w",
+    "build": "node ./node_modules/typescript/bin/tsc -p ./src"
   },
   "dependencies": {},
   "devDependencies": {
